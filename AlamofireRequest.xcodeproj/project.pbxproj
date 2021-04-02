@@ -13,6 +13,7 @@
 		E5DFBC57260D7A5F00D5C560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DFBC55260D7A5F00D5C560 /* Main.storyboard */; };
 		E5DFBC59260D7A6100D5C560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DFBC58260D7A6100D5C560 /* Assets.xcassets */; };
 		E5DFBC5C260D7A6100D5C560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5DFBC5A260D7A6100D5C560 /* LaunchScreen.storyboard */; };
+		E5E3240C2616DEEE00B29203 /* ECAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E3240B2616DEED00B29203 /* ECAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		E5DFBC58260D7A6100D5C560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5DFBC5B260D7A6100D5C560 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5DFBC5D260D7A6100D5C560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E3240B2616DEED00B29203 /* ECAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				E5DFBC4F260D7A5F00D5C560 /* AppDelegate.swift */,
 				E5DFBC51260D7A5F00D5C560 /* SceneDelegate.swift */,
 				E5DFBC53260D7A5F00D5C560 /* ViewController.swift */,
+				E5E3240B2616DEED00B29203 /* ECAdapter.swift */,
 				E5DFBC55260D7A5F00D5C560 /* Main.storyboard */,
 				E5DFBC58260D7A6100D5C560 /* Assets.xcassets */,
 				E5DFBC5A260D7A6100D5C560 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 				E5DFBC54260D7A5F00D5C560 /* ViewController.swift in Sources */,
 				E5DFBC50260D7A5F00D5C560 /* AppDelegate.swift in Sources */,
 				E5DFBC52260D7A5F00D5C560 /* SceneDelegate.swift in Sources */,
+				E5E3240C2616DEEE00B29203 /* ECAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

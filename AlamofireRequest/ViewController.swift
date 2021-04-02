@@ -24,15 +24,18 @@ class ViewController: UIViewController {
 //        AF.request(<#T##convertible: URLRequestConvertible##URLRequestConvertible#>)
 //        AF.request(<#T##convertible: URLRequestConvertible##URLRequestConvertible#>, interceptor: <#T##RequestInterceptor?#>)
 //        AF.request(<#T##convertible: URLConvertible##URLConvertible#>, method: <#T##HTTPMethod#>, parameters: <#T##Encodable?#>, encoder: <#T##ParameterEncoder#>, headers: <#T##HTTPHeaders?#>, interceptor: <#T##RequestInterceptor?#>, requestModifier: <#T##Session.RequestModifier?##Session.RequestModifier?##(inout URLRequest) throws -> Void#>)
-//        AF.request(urlString, method: .get, parameters: ["siteId":"100000"], encoding:JSONEncoding.default , headers: nil, interceptor: nil, requestModifier: nil).responseJSON { (<#AFDataResponse<Any>#>) in
-//            <#code#>
-//        }
+
         
-        
-        let request = AF.request(urlString).responseJSON { (resp) in
-            print(resp)
-            
+        let adapter = ECAdapter()
+//        AF.request(urlString, method: .get, parameters: ["siteId":"100000"], encoding:JSONEncoding.default , headers: nil, interceptor: adapter, requestModifier: nil).re
+        AF.request(urlString, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: nil, interceptor: adapter, requestModifier: nil).responseJSON { (res) in
+            print(res);
         }
+        
+//        let request = AF.request(urlString).responseJSON { (resp) in
+//            print(resp)
+//
+//        }
     }
     
 
